@@ -1,0 +1,47 @@
+<html>
+    <head>
+      <title>AZURE & MOBILENET</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  
+      <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
+<link href="https://fonts.googleapis.com/css2?family=Mate+SC&display=swap" rel="stylesheet">
+  
+      <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+  
+    <body>
+      <center>
+          <div class="col xs-12 header_div"><h1>Image Indentification &nbsp; <img src="logo (2).gif"></h1>
+          </div>
+
+          <div class="col sm-6 col xs-12" id="main_div">
+              <label>Test Image-</label>
+              <div id="camera"></div>
+          </div>
+
+          <div class="col xs-12 output_azure_div">
+            <span>Output on Microsoft Azure - </span> <span id="azure_name"></span>
+          </div>
+
+          <div class="col xs-12 output_mobilenet_div">
+            <span>Output on Mobilenet Model - </span> <span id="mobile_name"></span>
+          </div>
+          
+          <br>
+
+        <div class="col xs-12 footer_div">
+          <h4 class="col sm-6 xs-12">
+              <img src="bulb.gif" id="bulb">
+          <span id="object_name"></span>
+      </h4>
+      </div>
+      <div class="col sm-6 xs-12 footer_div_copyright"><b>Devoloped by &nbsp; THE WORLD OF NOONE</b></div>
+    </center>
+
+<script src="main.js"></script>
+  </body>
+</html> 
